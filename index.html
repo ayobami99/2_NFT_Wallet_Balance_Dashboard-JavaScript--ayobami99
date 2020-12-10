@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Rarible Wallet One Million Wallet</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <style>
+         body {
+            background-image: url("https://images.pexels.com/photos/132197/pexels-photo-132197.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");background-size: 100% 100% 
+ }
+      </style>
+    <h1>Rarible NFT Wallet</h1>
+    <h4>Powered by: <img src="https://www.covalenthq.com/static/images/covalent-logo.png" alt="Covalent Logo" style="width:7%;height:7%;"></h4>
+    <h4>Author: <img src="https://i.pinimg.com/originals/79/1b/54/791b5416c8ac2265c13070d1cc5914bf.png" alt="Rainbow99" style="width:10%;height:10%"></h4>
+    <br>
+    Enter wallet address or ENS: <input type="text" id="address" value="0xaa2e9db394445c28349465b530248233e936a764">
+    <button onclick="getData()">Get NFT Balance</button>
+
+    <h3>Metadata</h3>
+    <ul id="metadata"></ul>
+    <h3 id="total"></h3>
+    <table id="tokenTable">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Wearable ID</th>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <div id="spinner"></div> 
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html
